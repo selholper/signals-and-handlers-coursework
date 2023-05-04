@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1681908732 source:c:\projects\кв_2\cl_base.cpp
+	"cl_base.h"
+
+1681832239 c:\projects\кв_2\cl_base.h
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+
+1681804708 source:c:\projects\кв_2\cl_derived.cpp
+	"cl_derived.h"
+
+1681910872 source:c:\projects\кв_2\cl_application.cpp
+	"cl_application.h"
+	"cl_2.h"
+	"cl_3.h"
+	"cl_4.h"
+	"cl_5.h"
+	"cl_6.h"
+
+1681804621 c:\projects\кв_2\cl_application.h
+	"cl_base.h"
+
+1681804708 c:\projects\кв_2\cl_derived.h
+	"cl_base.h"
+
+1681828055 source:c:\projects\кв_2\main.cpp
+	"cl_application.h"
+
+1681825759 source:c:\projects\кв_2\cl_1.cpp
+
+1681825632 c:\projects\кв_2\cl_1.h
+	"cl_base.h"
+
+1681825759 source:c:\projects\кв_2\cl_2.cpp
+	"cl_2.h"
+
+1681825759 c:\projects\кв_2\cl_2.h
+	"cl_base.h"
+
+1681826293 source:c:\projects\кв_2\cl_3.cpp
+	"cl_3.h"
+
+1681826363 c:\projects\кв_2\cl_3.h
+	"cl_base.h"
+
+1681826468 source:c:\projects\кв_2\cl_4.cpp
+	"cl_4.h"
+
+1681826363 c:\projects\кв_2\cl_4.h
+	"cl_base.h"
+
+1681826603 source:c:\projects\кв_2\cl_5.cpp
+	"cl_5.h"
+
+1681826603 c:\projects\кв_2\cl_5.h
+	"cl_base.h"
+
+1681826669 source:c:\projects\кв_2\cl_6.cpp
+	"cl_6.h"
+
+1681826669 c:\projects\кв_2\cl_6.h
+	"cl_base.h"
+

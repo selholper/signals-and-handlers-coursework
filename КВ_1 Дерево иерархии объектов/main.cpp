@@ -64,7 +64,17 @@ class cl_application : public cl_base
 public:
     cl_application(cl_base* parent = nullptr, std::string name = "Base_object") : cl_base(parent, name) {}
 
-    void build_tree_objects() {
+    cl_base* build_tree_objects(std::string name = "Base_object") {
+        if (this->get_name() == name)
+            return this;
+
+        for (auto child : this->children)
+            child->build_tree_objects(name);
+
+        return nullptr;
+    }
+
+    int exec_app() {
         std::string root_name, name;
         cl_base *ptr = this;
         cl_base *new_ptr;
@@ -88,9 +98,7 @@ public:
             }
             std::cin >> root_name >> name;
         }
-    }
 
-    int exec_app() {
         show_tree();
 
         return 0;
