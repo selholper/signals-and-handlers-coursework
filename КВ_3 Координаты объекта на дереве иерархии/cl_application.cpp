@@ -48,7 +48,7 @@ void cl_application::build_tree_objects() {
                 case 6:
                     last = new cl_derived2(parent, name);
                     break;
-                default: // Неверный номер
+                default: // РќРµРІРµСЂРЅС‹Р№ РЅРѕРјРµСЂ
                     break;
             }
         }
@@ -121,7 +121,7 @@ int cl_application::exec_app() {
     }
 
     std::cout << std::endl << "Current object hierarchy tree";
-    show_tree(); // Вывод дерева иерархии
+    show_tree(); // Р’С‹РІРѕРґ РґРµСЂРµРІР° РёРµСЂР°СЂС…РёРё
 
     return 0;
 }
