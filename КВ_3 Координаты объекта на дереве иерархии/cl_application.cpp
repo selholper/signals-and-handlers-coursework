@@ -113,7 +113,7 @@ int cl_application::exec_app() {
                     std::cout << '/' << ptr_stack.top();
                     ptr_stack.pop();
                 }
-                std::cout << " hase been deleted";
+                std::cout << " has been deleted";
             }
         }
 

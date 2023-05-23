@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1684173158 source:c:\projects\ооп\кв_5 прототип\main.cpp
+	"cl_application.h"
+
+1684519582 c:\projects\ооп\кв_5 прототип\cl_application.h
+	"cl_base.h"
+
+1684520531 c:\projects\ооп\кв_5 прототип\cl_base.h
+	<iostream>
+	<vector>
+	<queue>
+
+1684520187 source:c:\projects\ооп\кв_5 прототип\cl_application.cpp
+	"cl_application.h"
+	"Reader.h"
+	"ControlPanel.h"
+	"Field.h"
+	"Ball.h"
+	"Writer.h"
+
+1684502926 c:\projects\ооп\кв_5 прототип\cl_derived2.h
+	"cl_base.h"
+
+1684172914 c:\projects\ооп\кв_5 прототип\cl_derived3.h
+	"cl_base.h"
+
+1684172963 c:\projects\ооп\кв_5 прототип\cl_derived4.h
+	"cl_base.h"
+
+1684173008 c:\projects\ооп\кв_5 прототип\cl_derived5.h
+	"cl_base.h"
+
+1684173040 c:\projects\ооп\кв_5 прототип\cl_derived6.h
+	"cl_base.h"
+
+1684520531 source:c:\projects\ооп\кв_5 прототип\cl_base.cpp
+	"cl_base.h"
+
+1684502300 source:c:\projects\ооп\кв_5 прототип\cl_derived2.cpp
+	"cl_derived2.h"
+
+1684173389 source:c:\projects\ооп\кв_5 прототип\cl_derived3.cpp
+	"cl_derived3.h"
+
+1684173389 source:c:\projects\ооп\кв_5 прототип\cl_derived4.cpp
+	"cl_derived4.h"
+
+1684173389 source:c:\projects\ооп\кв_5 прототип\cl_derived5.cpp
+	"cl_derived5.h"
+
+1684173389 source:c:\projects\ооп\кв_5 прототип\cl_derived6.cpp
+	"cl_derived6.h"
+
+1684520187 source:c:\projects\ооп\кв_5 прототип\reader.cpp
+	"Reader.h"
+
+1684518670 c:\projects\ооп\кв_5 прототип\reader.h
+	"cl_base.h"
+
+1684512848 source:c:\projects\ооп\кв_5 прототип\controlpanel.cpp
+	"ControlPanel.h"
+
+1684512793 c:\projects\ооп\кв_5 прототип\controlpanel.h
+	"cl_base.h"
+
+1684512946 source:c:\projects\ооп\кв_5 прототип\field.cpp
+	"Field.h"
+
+1684512913 c:\projects\ооп\кв_5 прототип\field.h
+	"cl_base.h"
+
+1684513035 source:c:\projects\ооп\кв_5 прототип\ball.cpp
+	"Ball.h"
+
+1684513029 c:\projects\ооп\кв_5 прототип\ball.h
+	"cl_base.h"
+
+1684513168 source:c:\projects\ооп\кв_5 прототип\writer.cpp
+	"Writer.h"
+
+1684513126 c:\projects\ооп\кв_5 прототип\writer.h
+	"cl_base.h"
+

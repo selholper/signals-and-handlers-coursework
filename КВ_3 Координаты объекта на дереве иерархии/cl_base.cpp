@@ -38,6 +38,7 @@ bool cl_base::set_name(std::string name) { // Проход по всем ука�
 }
 
 cl_base* cl_base::get_obj_on_branch(std::string name) {
+    cl_base *result = nullptr;
     std::queue <cl_base*> ptr_queue;
 
     // Обход дерева объектов в ширину
@@ -45,14 +46,17 @@ cl_base* cl_base::get_obj_on_branch(std::string name) {
     while (!ptr_queue.empty()) {
         cl_base *ptr = ptr_queue.front();
         ptr_queue.pop();
-        if (ptr->name == name) // Первое вхождение объекта в дерево
-            return ptr; ///changed
+
+        if (ptr->name == name && result == nullptr) // Первое вхождение объекта в дерево
+            result = ptr;
+        else if (ptr->name == name)
+            return nullptr;
 
         for (cl_base *child : ptr->children)
             ptr_queue.push(child); // Добавляем в очередь дочерние объекты
     }
 
-    return nullptr;
+    return result;
 }
 
 cl_base* cl_base::get_obj_on_tree(std::string name) {
@@ -163,7 +167,7 @@ cl_base* cl_base::get_obj_by_path(std::string path) {
 
     if (path[0] != '/') {
         size_t i = path.find('/');
-        cl_base *child = get_obj_on_branch((i == std::string::npos ? path : path.substr(0, i)));
+        cl_base *child = get_child((i == std::string::npos ? path : path.substr(0, i)));
 
         if (child == nullptr || i == std::string::npos)
             return child;

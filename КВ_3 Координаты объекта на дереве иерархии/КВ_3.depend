@@ -97,3 +97,11 @@
 1683192404 c:\projects\ооп\кв_3 координаты объекта на дереве иерархии\cl_application.h
 	"cl_base.h"
 
+1683397264 source:c:\projects\ооп\кв_3 координаты объекта на дереве иерархии\cl_application.cpp
+	"cl_application.h"
+	"cl_derived2.h"
+	"cl_derived3.h"
+	"cl_derived4.h"
+	"cl_derived5.h"
+	"cl_derived6.h"
+
